@@ -44,6 +44,7 @@ public class LoginOrSignUpPages {
 	public void sear() {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		search.sendKeys("0001");
+		System.out.println("User_2 Repository");
 	}
 	
 	//-------------------------------------------------------------------------
